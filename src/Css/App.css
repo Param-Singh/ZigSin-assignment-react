@@ -1,0 +1,14 @@
+.whole {
+    height: 160vh;
+    /* width: 90vw; */
+    background-color: rgba(94, 182, 233, 0.075);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.cards {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

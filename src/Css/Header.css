@@ -1,0 +1,29 @@
+.header {
+    height: 50vh;
+    background-image: url(../images/head.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    color: white;
+    padding-top: 30px;
+
+}
+.headerContent{
+    background-color: rgba(0, 89, 255, 0.212);
+    width: 30vw;
+    height: 60%;
+    padding: 60px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.contentHeader{
+    font-family: 'STIX Two Text', serif;
+}
+.contentDesc{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}

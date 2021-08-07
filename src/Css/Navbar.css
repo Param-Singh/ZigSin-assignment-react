@@ -1,0 +1,51 @@
+nav {
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.leftNavLinks{
+    display: flex;
+}
+.navLink{
+    margin-right: 50px;
+    /* font-family: 'Roboto', sans-serif; */
+}
+.rightNavButtons{
+    display: flex;
+    align-items: center;
+}
+.logIn{
+    margin-right: 70px;
+    height: 40px;
+    width: 90px;
+    background: none;
+    border: none;
+    font-family: 'Lato', sans-serif;
+}
+.SignUp{
+    height: 40px;
+    width: 130px;
+    color: white;
+    border: 1px rgb(255, 68, 0) solid;
+    border-radius: 50px;
+    background-color: rgba(255, 68, 0, 0.87);
+    font-family: 'Lato', sans-serif;
+}
+.searchLogo{
+    height: 20px;
+    width: 20px;
+    margin-right: 30px;
+}
+.dropLogo{
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+}
+.products{
+    display: flex;
+    align-items: center;
+}

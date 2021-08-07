@@ -1,0 +1,41 @@
+.card {
+    height: 80vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.cardContent{
+    /* background-color: rgb(124, 85, 33); */
+    /* height: 80vh; */
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardHead{
+    text-align: center;
+    font-family: 'Hahmlet', serif;
+    font-size: 40px;
+}
+.cardText {
+    text-align: center;
+    width: 80%;
+}
+.cardButton{
+    background: none;
+    border: 1px black solid;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.cardButton:hover {
+    color: white;
+    background-color: black;
+    
+}
+.cardImage{
+    width: 100%;
+}
